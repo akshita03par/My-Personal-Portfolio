@@ -3,9 +3,9 @@ import { FiMenu, FiX } from "react-icons/fi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState("");
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [isOpen, setIsOpen] = useState(false); //Mobile menu toggle
+  const [activeSection, setActiveSection] = useState(""); //Hifhlight current menu
+  const [isScrolled, setIsScrolled] = useState(false); // Navbar bg after scroll
 
   //Check scroll and change navbar background
   useEffect(() => {
@@ -21,6 +21,18 @@ const Navbar = () => {
   const handleMenuItemClick = () => {
     setActiveSection(sectionId);
     setIsOpen(false);
+
+    const handleMenuItemClick = (sectionId) => {
+      setActiveSection(sectionId);
+      setIsOpen(false);
+
+      // Smooth scroll
+      const el = document.getElementById(sectionId);
+      if (el) {
+        const y = el.getBoundingClientRect().top + window.pageYOffset - 80; // 80px for navbar height
+        window.scrollTo({ top: y, behavior: "smooth" });
+      }
+    };
   };
 
   // ----------menuItems------------
@@ -57,7 +69,7 @@ const Navbar = () => {
           {menuItems.map((item) => (
             <li
               key={item.id}
-              className={`cusror-pointer hover:text-[#8245ec] ${
+              className={`cursor-pointer hover:text-[#8245ec] ${
                 activeSection === item.id ? "text-[#8245ec]" : ""
               }`}
             >
@@ -86,14 +98,14 @@ const Navbar = () => {
           <a
             href="https://www.linkedin.com/in/akshita-parmar-a667292b8/r"
             target="_blank"
-            rel="noopener moreferrer"
+            rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec]"
           >
             <FaLinkedin size={26} />
           </a>
         </div>
 
-        {/* Mobile Menu Icons */}
+        {/* Mobile Menu Icons(Hamburger) */}
 
         <div className="md:hidden">
           {isOpen ? (
@@ -110,7 +122,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu Items */}
+      {/* Mobile Dropdown Menu Items */}
       {isOpen && (
         <div className="absolute top-16 left-1/2 transform -translate-x-1/2 w-4/5 bg-[#050414aa]  backdrop-filter backdrop-blur-lg z-50 rounded-lg shadow-lg">
           <ul className="flex flex-col items-center space-y-4 py-4 text-gray-300">
