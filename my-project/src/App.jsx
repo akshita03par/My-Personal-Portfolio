@@ -9,7 +9,6 @@ import Contact from "./components/Contact/Contact.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import BlurBlob from "./BlurBlob.jsx";
 
-import "./index.css";
 
 const App = () => {
   return (
