@@ -26,10 +26,9 @@ const Navbar = () => {
       setActiveSection(sectionId);
       setIsOpen(false);
 
-      // Smooth scroll
       const el = document.getElementById(sectionId);
       if (el) {
-        const y = el.getBoundingClientRect().top + window.pageYOffset - 80; // 80px for navbar height
+        const y = el.getBoundingClientRect().top + window.pageYOffset - 80; // navbar offset
         window.scrollTo({ top: y, behavior: "smooth" });
       }
     };
@@ -49,7 +48,7 @@ const Navbar = () => {
       className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw] md:px-[7vw] lg:px-[20vw] 
         ${
           isScrolled
-            ? " bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md"
+            ? " bg-[#050414]/50 backdrop-blur-md shadow-md"
             : "bg-transparent"
         } `}
     >
