@@ -43,13 +43,12 @@ import AkshitaLogo from "./assets/Akshita-Parmar-modified.png";
 
 // // Project Section Logo's
 import FitnessHubLogo from "./assets/work_logo/FitnessHub.png";
-import PortfolioLogo  from "./assets/work_logo/Portfolio.png";
-import RazorPayLogo from "./assets/work_logo/RazorPayLogo.png";
+import PortfolioLogo from "./assets/work_logo/Portfolio.png";
+import RazorPayLogo from "./assets/work_logo/RazorPay.png";
 import AmaZonCloneLogo from "./assets/work_logo/AmaZonClone.png";
-import  bgGradientLogo from "./assets/work_logo/bgGradient.png";
+import bgGradientLogo from "./assets/work_logo/bgGradient.png";
 import GussingNumberLogo from "./assets/work_logo/GussingNumber.png";
 import SpotifyCloneLogo from "./assets/work_logo/SpotifyClone.png";
-
 
 export const SkillsInfo = [
   {
@@ -197,70 +196,71 @@ export const projects = [
     id: 0,
     title: "Fitness Hub",
     description:
-      "A responsive fitness web app to track exercises, BMI, and workout routines. Built with HTML, CSS, and JavaScript for smooth UI and interactive charts.",
+      "A modern and responsive gym & fitness website that helps users track workouts, calculate BMI, and explore exercise routines. Built with HTML, CSS, and JavaScript, featuring interactive charts, smooth animations, and a user-friendly interface to enhance the fitness experience.",
     image: FitnessHubLogo,
     tags: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/yourusername/FitnessHub",
-    webapp: "https://fitnesshubdemo.netlify.app/",
+    github: "https://github.com/akshita03par/Gym_fitness_project",
+    webapp: "",
   },
   {
     id: 1,
     title: "Portfolio Website",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact details. Built using React JS and styled with modern design principles.",
+      "A professional portfolio website highlighting my skills in web development, projects, and technical expertise. Designed with HTML, Tailwind CSS , JavaScript to create a responsive, modern, and interactive experience for recruiters and collaborators.",
     image: PortfolioLogo,
-    tags: [ "HTML", "CSS", "JavaScript" , "TailwindCSS"],
-    github: "https://github.com/yourusername/Portfolio",
-    webapp: "https://yourportfolio.netlify.app/",
+    tags: ["HTML", "CSS", "JavaScript", "TailwindCSS"],
+    github: "https://github.com/akshita03par/portfolio_website",
+    webapp: "https://creative-twilight-2ab38f.netlify.app/",
   },
   {
     id: 2,
     title: "RazorPay Clone",
     description:
-      "A clone of RazorPay’s landing page and payment interface. Built using React JS, Tailwind CSS, and API integration for practice purposes.",
+      "A clone of RazorPay’s landing page and payment interface. Built using HTML, Tailwind CSS, and API itragation for practice purposes.",
     image: RazorPayLogo,
-    tags: ["React JS", "Tailwind CSS", "API"],
-    github: "https://github.com/yourusername/RazorPayClone",
-    webapp: "https://razorpayclone.netlify.app/",
+    tags: ["HTML", "CSS", "Tailwind CSS"],
+    github:
+      "https://github.com/akshita03par/Razorpay_tailwind/tree/main/RAZORPAYCLONE_TAILWIND",
+    webapp: "",
   },
   {
     id: 3,
     title: "Amazon Clone",
     description:
-      "An Amazon-like e-commerce front-end clone with product listings, cart functionality, and a responsive layout built with React JS and Node.js.",
+      "An Amazon-like e-commerce front-end clone with product listings, cart functionality, and a responsive layout built with HTML , CSS.",
     image: AmaZonCloneLogo,
     tags: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/yourusername/AmazonClone",
-    webapp: "https://amazonclone.netlify.app/",
+    github: "https://github.com/akshita03par/Web-Development/tree/main/PROJECTS/CLONES/Amazon",
+    webapp: "",
   },
   {
     id: 4,
-    title: "Task Reminder Tool",
+    title: "Interactive Gradient Generator",
     description:
-      "A Chrome extension to help users manage daily tasks and get notifications. Built using JavaScript and Chrome Extension APIs for productivity.",
+       "A modern web tool that lets users create stunning linear gradients with live preview. It features two buttons to quickly generate new gradients and displays the corresponding RGB values for easy copying. Ideal for designers and developers looking for quick gradient inspiration and integration into their projects.",
     image: bgGradientLogo,
     tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-    github: "https://github.com/yourusername/TaskReminderTool",
-    webapp: "https://taskreminderdemo.netlify.app/",
+    github: "https://github.com/akshita03par/Web-Development/tree/main/JAVASCRIPT_TUTORIAL/PROJECTS/BACKGROUND-GRADIENT-GENERATOR",
+    webapp: "",
   },
   {
     id: 5,
-    title: "Webverse Digital",
+    title: "Random Number Guessing Game",
     description:
-      "Official website of Webverse Digital, a creative digital marketing agency. Built with HTML, CSS, and JavaScript with animations and clean UI.",
+       "A fun and interactive web game where users try to guess a randomly generated number. The game provides instant feedback on each guess, tracks the number of attempts, and encourages users to improve their prediction skills. Built with HTML, CSS, and JavaScript for a smooth and engaging experience.",
     image: GussingNumberLogo,
     tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-    github: "https://github.com/yourusername/WebverseDigital",
-    webapp: "https://webversedigital.com/",
+    github: "https://github.com/akshita03par/Web-Development/tree/main/JAVASCRIPT_TUTORIAL/PROJECTS/GUESS-THE-NUMBER",
+    webapp: "",
   },
   {
     id: 6,
     title: "Spotify Clone",
     description:
-      "An ed-tech platform for coding blogs, interview prep, e-books, and premium content with payment integration. Full-stack React JS, Node.js, MongoDB, and Express.",
+      "A visually appealing, responsive frontend replica of Spotify. Built entirely with HTML, CSS, and JavaScript, smooth user interactions.",
     image: SpotifyCloneLogo,
-    tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-    github: "https://github.com/yourusername/CodingMaster",
-    webapp: "https://codingmasterweb.in/",
+    tags: ["HTML" , "CSS" ,"JavaScript"],
+    github: "https://github.com/akshita03par/Web-Development/tree/main/PROJECTS/CLONES/Spotify",
+    webapp: "",
   },
 ];
