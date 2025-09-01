@@ -1,4 +1,4 @@
-// Skills Section Logo's
+// Skills Section Logo's----------------------------->
 import htmlLogo from "./assets/tech_logo/html.png";
 import cssLogo from "./assets/tech_logo/css.png";
 import sassLogo from "./assets/tech_logo/sass.png";
@@ -33,15 +33,14 @@ import vercelLogo from "./assets/tech_logo/vercel.png";
 import postgreLogo from "./assets/tech_logo/postgre.png";
 import csharpLogo from "./assets/tech_logo/csharp.png";
 
-// Experience Section Logo's
+// Experience Section Logo's--------------------------------------->
 import AkshitaLogo from "./assets/Akshita-Parmar-modified.png";
 
-// // Education Section Logo's
-// import glaLogo from './assets/education_logo/gla_logo.png';
-// import bsaLogo from './assets/education_logo/bsa_logo.png';
-// import vpsLogo from './assets/education_logo/vps_logo.png';
+// Education Section Logo's---------------------------------------->
+import iipsLogo from "./assets/iips_logo.png";
+import vaishnavLogo from "./assets/vaishnav_logo.webp";
 
-// // Project Section Logo's
+// Project Section Logo's-------------------------------------------->
 import FitnessHubLogo from "./assets/work_logo/FitnessHub.png";
 import PortfolioLogo from "./assets/work_logo/Portfolio.png";
 import RazorPayLogo from "./assets/work_logo/RazorPay.png";
@@ -49,6 +48,9 @@ import AmaZonCloneLogo from "./assets/work_logo/AmaZonClone.png";
 import bgGradientLogo from "./assets/work_logo/bgGradient.png";
 import GussingNumberLogo from "./assets/work_logo/GussingNumber.png";
 import SpotifyCloneLogo from "./assets/work_logo/SpotifyClone.png";
+
+
+// Skills Section -------------------------------------------------->
 
 export const SkillsInfo = [
   {
@@ -108,6 +110,8 @@ export const SkillsInfo = [
   },
 ];
 
+
+// Experiences Section---------------------------------------->
 export const experiences = [
   {
     id: 0,
@@ -152,44 +156,48 @@ export const experiences = [
   },
 ];
 
-// export const education = [
-//   {
-//     id: 0,
-//     img: glaLogo,
-//     school: "GLA University, Mathura",
-//     date: "Sept 2022 - July 2024",
-//     grade: "7.81 CGPA",
-//     desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-//     degree: "Master of Computer Applications - MCA",
-//   },
-//   {
-//     id: 1,
-//     img: bsaLogo,
-//     school: "BSA College, Mathura",
-//     date: "Sept 2018 - Aug 2021",
-//     grade: "73.2%",
-//     desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-//     degree: "Bachelor of Science - BSC (Computer Science)",
-//   },
-//   {
-//     id: 2,
-//     img: vpsLogo,
-//     school: "Vatsalya Public School Govardhan, Mathura",
-//     date: "Apr 2017 - March 2018",
-//     grade: "78%",
-//     desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-//     degree: "CBSE(XII) - PCM with Computer Science",
-//   },
-//   {
-//     id: 3,
-//     img: vpsLogo,
-//     school: "Vatsalya Public School Govardhan, Mathura",
-//     date: "Apr 2015 - March 2016",
-//     grade: "87.5%",
-//     desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-//     degree: "CBSE(X), Science with Computer Application",
-//   },
-// ];
+// Education Section--------------------------------------------------------->
+
+export const education = [
+  {
+    id: 0,
+    img: iipsLogo,
+    school: "International Institute of Professional Studies (IIPS), DAVV",
+    date: "Jun 2025 - Jun 2026",
+    grade: "7.35 CGPA",
+    desc:  "Pursuing M.Tech in Information Technology with specialization in advanced computing and software development. Focused on research-driven projects, parallel processing, and innovative technology solutions to strengthen problem-solving and technical expertise.",
+    degree: "Master of Technology- M.Tech in IT",
+  },
+  {
+    id: 1,
+    img: iipsLogo,
+    school: "International Institute of Professional Studies (IIPS), DAVV",
+    date: "Oct 2021 - May 2024",
+    grade: "7.31 CGPA",
+    desc: "Pursuing B.Tech in Information Technology with a focus on web development, programming, and software engineering. Actively engaged in projects that enhance practical skills and real-world problem-solving abilities.",
+    degree: "Bachelor of Technology - B.Tech in IT",
+  },
+  {
+    id: 2,
+    img: vaishnavLogo,
+    school: "Shri Cloth Market Vaishnav bal Mandir Girls Higher Secondary School",
+    date: "Apr 2020 - March 2021",
+    grade: "79%",
+    desc: "Completed class 12 under the CBSE board, studying Physics, Chemistry, Mathematics (PCM).",
+    degree: "CBSE(XII) - PCM with Physical Education",
+  },
+  {
+    id: 3,
+    img: vaishnavLogo,
+    school: "Shri Cloth Market Vaishnav bal Mandir Girls Higher Secondary School",
+    date: "Apr 2018 - March 2019",
+    grade: "80.8",
+    desc:"Completed class 10 under the CBSE board, studying Science with Computer.",
+    degree: "CBSE(X) - PCM with Physical Education",
+  },
+];
+
+// Project (Work) Section-------------------------------------------------------->
 
 export const projects = [
   {
@@ -264,3 +272,7 @@ export const projects = [
     webapp: "",
   },
 ];
+
+
+
+
