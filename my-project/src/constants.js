@@ -49,7 +49,6 @@ import bgGradientLogo from "./assets/work_logo/bgGradient.png";
 import GussingNumberLogo from "./assets/work_logo/GussingNumber.png";
 import SpotifyCloneLogo from "./assets/work_logo/SpotifyClone.png";
 
-
 // Skills Section -------------------------------------------------->
 
 export const SkillsInfo = [
@@ -110,7 +109,6 @@ export const SkillsInfo = [
   },
 ];
 
-
 // Experiences Section---------------------------------------->
 export const experiences = [
   {
@@ -165,7 +163,7 @@ export const education = [
     school: "International Institute of Professional Studies (IIPS), DAVV",
     date: "Jun 2025 - Jun 2026",
     grade: "7.35 CGPA",
-    desc:  "Pursuing M.Tech in Information Technology with specialization in advanced computing and software development. Focused on research-driven projects, parallel processing, and innovative technology solutions to strengthen problem-solving and technical expertise.",
+    desc: "Pursuing M.Tech in Information Technology with specialization in advanced computing and software development. Focused on research-driven projects, parallel processing, and innovative technology solutions to strengthen problem-solving and technical expertise.",
     degree: "Master of Technology- M.Tech in IT",
   },
   {
@@ -180,7 +178,8 @@ export const education = [
   {
     id: 2,
     img: vaishnavLogo,
-    school: "Shri Cloth Market Vaishnav bal Mandir Girls Higher Secondary School",
+    school:
+      "Shri Cloth Market Vaishnav bal Mandir Girls Higher Secondary School",
     date: "Apr 2020 - March 2021",
     grade: "79%",
     desc: "Completed class 12 under the CBSE board, studying Physics, Chemistry, Mathematics (PCM).",
@@ -189,10 +188,11 @@ export const education = [
   {
     id: 3,
     img: vaishnavLogo,
-    school: "Shri Cloth Market Vaishnav bal Mandir Girls Higher Secondary School",
+    school:
+      "Shri Cloth Market Vaishnav bal Mandir Girls Higher Secondary School",
     date: "Apr 2018 - March 2019",
-    grade: "80.8",
-    desc:"Completed class 10 under the CBSE board, studying Science with Computer.",
+    grade: "80.8%",
+    desc: "Completed class 10 under the CBSE board, studying Science with Computer.",
     degree: "CBSE(X) - PCM with Physical Education",
   },
 ];
@@ -238,27 +238,30 @@ export const projects = [
       "An Amazon-like e-commerce front-end clone with product listings, cart functionality, and a responsive layout built with HTML , CSS.",
     image: AmaZonCloneLogo,
     tags: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/akshita03par/Web-Development/tree/main/PROJECTS/CLONES/Amazon",
+    github:
+      "https://github.com/akshita03par/Web-Development/tree/main/PROJECTS/CLONES/Amazon",
     webapp: "",
   },
   {
     id: 4,
     title: "Interactive Gradient Generator",
     description:
-       "A modern web tool that lets users create stunning linear gradients with live preview. It features two buttons to quickly generate new gradients and displays the corresponding RGB values for easy copying. Ideal for designers and developers looking for quick gradient inspiration and integration into their projects.",
+      "A modern web tool that lets users create stunning linear gradients with live preview. It features two buttons to quickly generate new gradients and displays the corresponding RGB values for easy copying. Ideal for designers and developers looking for quick gradient inspiration and integration into their projects.",
     image: bgGradientLogo,
     tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-    github: "https://github.com/akshita03par/Web-Development/tree/main/JAVASCRIPT_TUTORIAL/PROJECTS/BACKGROUND-GRADIENT-GENERATOR",
+    github:
+      "https://github.com/akshita03par/Web-Development/tree/main/JAVASCRIPT_TUTORIAL/PROJECTS/BACKGROUND-GRADIENT-GENERATOR",
     webapp: "",
   },
   {
     id: 5,
     title: "Random Number Guessing Game",
     description:
-       "A fun and interactive web game where users try to guess a randomly generated number. The game provides instant feedback on each guess, tracks the number of attempts, and encourages users to improve their prediction skills. Built with HTML, CSS, and JavaScript for a smooth and engaging experience.",
+      "A fun and interactive web game where users try to guess a randomly generated number. The game provides instant feedback on each guess, tracks the number of attempts, and encourages users to improve their prediction skills. Built with HTML, CSS, and JavaScript for a smooth and engaging experience.",
     image: GussingNumberLogo,
     tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-    github: "https://github.com/akshita03par/Web-Development/tree/main/JAVASCRIPT_TUTORIAL/PROJECTS/GUESS-THE-NUMBER",
+    github:
+      "https://github.com/akshita03par/Web-Development/tree/main/JAVASCRIPT_TUTORIAL/PROJECTS/GUESS-THE-NUMBER",
     webapp: "",
   },
   {
@@ -267,12 +270,9 @@ export const projects = [
     description:
       "A visually appealing, responsive frontend replica of Spotify. Built entirely with HTML, CSS, and JavaScript, smooth user interactions.",
     image: SpotifyCloneLogo,
-    tags: ["HTML" , "CSS" ,"JavaScript"],
-    github: "https://github.com/akshita03par/Web-Development/tree/main/PROJECTS/CLONES/Spotify",
+    tags: ["HTML", "CSS", "JavaScript"],
+    github:
+      "https://github.com/akshita03par/Web-Development/tree/main/PROJECTS/CLONES/Spotify",
     webapp: "",
   },
 ];
-
-
-
-

@@ -1,26 +1,26 @@
 import React, { useRef, useState } from "react";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer, toast } from "react-toastify"; // showing success/error notifications.
 import "react-toastify/dist/ReactToastify.css";
-import emailjs from "@emailjs/browser";
+import emailjs from "@emailjs/browser"; // library to send emails
 
 const Contact = () => {
-  const form = useRef();
-  const [isSent, setIsSent] = useState(false);
+  const form = useRef(); // Reference to the form
+  const [isSent, setIsSent] = useState(false); // Track if message sent
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_ya6x9es",
-        "template_3qxjsec",
+        "service_ya6x9es", // EmailJS service ID
+        "template_3qxjsec", // EmailJS template ID
         form.current,
-        "tCauN0zLg-IUn0lNm"
+        "tCauN0zLg-IUn0lNm" // Public API key
       )
       .then(
         () => {
           setIsSent(true);
-          form.current.reset();
+          form.current.reset(); // Clear the form when the set sent
           toast.success("Message sent successfuly!✅", {
             position: "top-right",
             autoClose: 3000,
@@ -34,6 +34,7 @@ const Contact = () => {
         (error) => {
           console.error("Error sending message:", error);
           toast.error("Failed to send message. Please try again.", {
+            // Error toast
             position: "top-right",
             autoClose: 3000,
             hideProgressBar: false,
@@ -51,8 +52,7 @@ const Contact = () => {
       id="contact"
       className="flex flex-col items-center justify-center py-24 px-[12vw] md:px-[7vw] lg:px-[20vw]"
     >
-      <ToastContainer />
-
+      <ToastContainer /> {/* Toast notifications container */}
       {/* Section Title */}
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-white">CONTACT</h2>
@@ -62,7 +62,6 @@ const Contact = () => {
           questions!
         </p>
       </div>
-
       {/* Contact Form */}
       <div className="mt-8 w-full max-w-md bg-[#0d081f] p-6 rounded-lg shadow-lg border border-gray-700">
         <h3 className="text-xl font-semibold text-white text-center">

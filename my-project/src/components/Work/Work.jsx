@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import { projects } from "../../constants";
 
 const Work = () => {
-  const [selectedProject, setSelectedProject] = useState(null);
+  const [selectedProject, setSelectedProject] = useState(null); // null ->no prject select
 
+  // click project card
   const handleOpenModal = (project) => {
     setSelectedProject(project);
   };
 
+  //close project card
   const handleCloseModal = () => {
     setSelectedProject(null);
   };
@@ -64,7 +66,7 @@ const Work = () => {
         ))}
       </div>
 
-      {/* Modal Container */}
+      {/* Modal Container --> Modal only when tou click on particular project */}
       {selectedProject && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80 p-4">
           <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative">

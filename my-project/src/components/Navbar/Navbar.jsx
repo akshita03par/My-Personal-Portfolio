@@ -10,6 +10,7 @@ const Navbar = () => {
   //Check scroll and change navbar background
   useEffect(() => {
     const handleScroll = () => {
+      // If user scrolls > 50px, then change navbar bg
       setIsScrolled(window.scrollY > 50);
     };
 
@@ -18,20 +19,14 @@ const Navbar = () => {
   }, []);
 
   // Smooth scroll function------------
-  const handleMenuItemClick = () => {
-    setActiveSection(sectionId);
-    setIsOpen(false);
+  const handleMenuItemClick = (sectionId) => {
+    setActiveSection(sectionId); // highlight clicked section
+    setIsOpen(false); // close mobile menu after click
 
-    const handleMenuItemClick = (sectionId) => {
-      setActiveSection(sectionId);
-      setIsOpen(false);
-
-      const el = document.getElementById(sectionId);
-      if (el) {
-        const y = el.getBoundingClientRect().top + window.pageYOffset - 80; // navbar offset
-        window.scrollTo({ top: y, behavior: "smooth" });
-      }
-    };
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   // ----------menuItems------------
@@ -95,7 +90,7 @@ const Navbar = () => {
 
           {/* linkedin */}
           <a
-            href="https://www.linkedin.com/in/akshita-parmar-a667292b8/r"
+            href="https://www.linkedin.com/in/akshita-parmar-a667292b8"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec]"
