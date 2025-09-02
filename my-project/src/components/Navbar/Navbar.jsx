@@ -142,7 +142,7 @@ const Navbar = () => {
               <a
                 href="https://github.com/akshita03par"
                 target="_blank"
-                rel="noopener moreferrer"
+                rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"
               >
                 <FaGithub size={24} />
@@ -152,7 +152,7 @@ const Navbar = () => {
               <a
                 href="https://www.linkedin.com/in/akshita-parmar-a667292b8/r"
                 target="_blank"
-                rel="noopener moreferrer"
+                rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"
               >
                 <FaLinkedin size={24} />
