@@ -90,7 +90,7 @@ const Navbar = () => {
 
           {/* linkedin */}
           <a
-            href="https://www.linkedin.com/in/akshita-parmar-a667292b8"
+            href="https://www.linkedin.com/in/akshita-parmar-2b9916382/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec]"

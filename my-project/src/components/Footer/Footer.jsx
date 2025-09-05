@@ -42,7 +42,7 @@ const Footer = () => {
             { icon: <FaGithub />, link: "https://github.com/akshita03par" },
             {
               icon: <FaLinkedin />,
-              link: "https://www.linkedin.com/in/akshita-parmar-a667292b8",
+              link: "https://www.linkedin.com/in/akshita-parmar-2b9916382/",
             },
             // { icon: <FaInstagram />, link: "" },
             {
