@@ -41,6 +41,7 @@ import iipsLogo from "./assets/iips_logo.png";
 import vaishnavLogo from "./assets/vaishnav_logo.webp";
 
 // Project Section Logo's-------------------------------------------->
+import AITOOLogo from "./assets/work_logo/AI-TOOL.png";
 import FitnessHubLogo from "./assets/work_logo/FitnessHub.png";
 import PortfolioLogo from "./assets/work_logo/Portfolio.png";
 import RazorPayLogo from "./assets/work_logo/RazorPay.png";
@@ -202,6 +203,17 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "AI-TOOL",
+    description:
+      "A modern and responsive AI tool website that helps users interact with AI models, explore functionalities, and get results in real-time. Built with React.js and integrated with APIs, featuring a user-friendly interface, smooth animations, and responsive design.",
+    image: AITOOLogo,
+    tags: ["HTML", "CSS", "Reactjs", "API"],
+    github: "https://github.com/akshita03par/AI-TOOL",
+    webapp: "https://ai-tool-bay.vercel.app/",
+  },
+
+  {
+    id: 1,
     title: "Fitness Hub",
     description:
       "A modern and responsive gym & fitness website that helps users track workouts, calculate BMI, and explore exercise routines. Built with HTML, CSS, and JavaScript, featuring interactive charts, smooth animations, and a user-friendly interface to enhance the fitness experience.",
@@ -211,7 +223,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 1,
+    id: 2,
     title: "Portfolio Website",
     description:
       "A professional portfolio website highlighting my skills in web development, projects, and technical expertise. Designed with HTML, Tailwind CSS , JavaScript to create a responsive, modern, and interactive experience for recruiters and collaborators.",
@@ -221,7 +233,7 @@ export const projects = [
     webapp: "https://creative-twilight-2ab38f.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "RazorPay Clone",
     description:
       "A clone of RazorPay’s landing page and payment interface. Built using HTML, Tailwind CSS, and API itragation for practice purposes.",
@@ -232,7 +244,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 3,
+    id: 4,
     title: "Amazon Clone",
     description:
       "An Amazon-like e-commerce front-end clone with product listings, cart functionality, and a responsive layout built with HTML , CSS.",
@@ -243,7 +255,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 4,
+    id: 5,
     title: "Interactive Gradient Generator",
     description:
       "A modern web tool that lets users create stunning linear gradients with live preview. It features two buttons to quickly generate new gradients and displays the corresponding RGB values for easy copying. Ideal for designers and developers looking for quick gradient inspiration and integration into their projects.",
@@ -254,7 +266,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 5,
+    id: 6,
     title: "Random Number Guessing Game",
     description:
       "A fun and interactive web game where users try to guess a randomly generated number. The game provides instant feedback on each guess, tracks the number of attempts, and encourages users to improve their prediction skills. Built with HTML, CSS, and JavaScript for a smooth and engaging experience.",
@@ -265,7 +277,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 6,
+    id: 7,
     title: "Spotify Clone",
     description:
       "A visually appealing, responsive frontend replica of Spotify. Built entirely with HTML, CSS, and JavaScript, smooth user interactions.",
