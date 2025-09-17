@@ -172,7 +172,7 @@ export const education = [
     img: iipsLogo,
     school: "International Institute of Professional Studies (IIPS), DAVV",
     date: "Oct 2021 - May 2024",
-    grade: "7.31 CGPA",
+    grade: "7.35 CGPA",
     desc: "Pursuing B.Tech in Information Technology with a focus on web development, programming, and software engineering. Actively engaged in projects that enhance practical skills and real-world problem-solving abilities.",
     degree: "Bachelor of Technology - B.Tech in IT",
   },
